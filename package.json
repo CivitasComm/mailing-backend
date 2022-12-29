@@ -1,0 +1,30 @@
+{
+  "name": "mailing-backend-civitas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teoriya/mailing-backend-civitas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teoriya/mailing-backend-civitas/issues"
+  },
+  "homepage": "https://github.com/Teoriya/mailing-backend-civitas#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "mongoose": "^6.8.2"
+  }
+}
